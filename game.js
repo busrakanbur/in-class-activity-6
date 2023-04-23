@@ -60,7 +60,7 @@ function updateTimer() {
     stopGame();
     alert("Time's up!");
   } else {
-    setTimeout(updateTimer, 10);
+    setTimeout(updateTimer, 1000);
   }
 }
 
